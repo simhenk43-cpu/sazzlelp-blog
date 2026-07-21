@@ -1,0 +1,18 @@
+.follow{
+  position:relative;
+  text-align:center;
+  padding:64px 32px;
+  border-radius:32px 32px 60px 32px;
+  background:var(--surface-2);
+  border:1px solid var(--border);
+  overflow:hidden;
+  margin-bottom:70px;
+}
+.follow::before{
+  content:"";
+  position:absolute; inset:0;
+  background:radial-gradient(500px 250px at 50% 0%, rgba(77,255,129,0.18), transparent 70%);pointer-events:none;
+}
+.follow h2{font-size:30px; color:var(--mint); margin-bottom:12px; position:relative;}
+.follow p{color:var(--text-dim); max-width:50ch; margin:0 auto 26px; position:relative;}
+.sparkle{position:absolute; color:var(--mint); opacity:.8;pointer-events:none;}
