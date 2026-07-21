@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Der Weg zum Streamer</title>
+<meta name="description" content="Teste hier grad rum wien blöder.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Nunito:wght@400;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../css/variables.css">
+<link rel="stylesheet" href="../css/reset.css">
+<link rel="stylesheet" href="../css/typography.css">
+<link rel="stylesheet" href="../css/buttons.css">
+<link rel="stylesheet" href="../css/nav.css">
+<link rel="stylesheet" href="../css/section-head.css">
+<link rel="stylesheet" href="../css/post.css">
+<link rel="stylesheet" href="../css/footer.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <div class="logo">
+      <svg width="34" height="34" viewBox="0 0 100 100" aria-hidden="true">
+        <path d="M10 40 C10 15,30 5,50 5 C70 5,90 15,90 40 C90 62,75 78,50 78 C25 78,10 62,10 40 Z" fill="#4dff81" stroke="#08210f" stroke-width="5"/>
+        <circle cx="36" cy="38" r="7" fill="#08210f"/>
+        <circle cx="64" cy="38" r="7" fill="#08210f"/>
+        <path d="M32 52 Q50 66 68 52" stroke="#08210f" stroke-width="5" fill="none" stroke-linecap="round"/>
+      </svg>
+      <a href="../index.html"><span class="logo-text">Sazzlelp<span>.</span></span></a>
+    </div>
+    <div class="nav-links">
+      <a href="../index.html#posts">Beiträge</a>
+      <a href="../index.html#about">Über mich</a>
+      <a href="../index.html#follow">Community</a>
+    </div>
+    <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">
+      <span></span>
+    </button>
+    <a class="btn" href="https://twitch.tv/sazzlelp" target="_blank" rel="noopener">Auf Twitch</a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <div class="post-header">
+    <a class="back-link" href="../index.html#posts"><span class="arrow-back">←</span> Zurück zu allen Beiträgen</a>
+     <span class="pill">Community</span>
+    <h1>Community-Q&amp;A: Eure besten Fragen</h1>
+    <div class="meta">07. Juli 2026 · 5 Min. Lesezeit</div>
+  </div>
+
+    <footer>
+  <div class="wrap footer-inner">
+    <span>© <span data-current-year>2026</span> Sazzlelp. Alle Slimes vorbehalten.</span>
+    <div class="socials">
+      <a href="https://twitch.tv/sazzlelp" target="_blank" rel="noopener" aria-label="Twitch">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M4 2 2 7v13h6v2h3l2-2h4l4-4V2H4zm16 12-3 3h-4l-2 2v-2H6V4h14v10z"/><path d="M15 8h2v4h-2zM10 8h2v4h-2z"/></svg>
+      </a>
+      <a href="#" aria-label="Discord">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20 5.5c-1.6-.8-3.3-1.3-5.1-1.6l-.3.5c1.6.4 3 .9 4.4 1.7-1.9-.9-3.9-1.4-6-1.4s-4.1.5-6 1.4c1.4-.8 2.9-1.4 4.5-1.7l-.3-.5C9.4 4.2 7.6 4.7 6 5.5 4 8.4 3 12 3.3 15.5c1.6 1.2 3.4 2 5.3 2.5l.7-1.2c-.9-.3-1.7-.7-2.5-1.2l.4-.3c2.9 1.4 6.3 1.4 9.2 0l.4.3c-.8.5-1.6.9-2.5 1.2l.7 1.2c1.9-.5 3.7-1.3 5.3-2.5C21 12 20 8.4 20 5.5zM9.5 13.8c-.8 0-1.5-.8-1.5-1.8s.7-1.8 1.5-1.8 1.5.8 1.5 1.8-.7 1.8-1.5 1.8zm5 0c-.8 0-1.5-.8-1.5-1.8s.7-1.8 1.5-1.8 1.5.8 1.5 1.8-.7 1.8-1.5 1.8z"/></svg>
+      </a>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/mobile-nav.js"></script>
+<script src="../js/footer-year.js"></script>
+</body>
+</html>
