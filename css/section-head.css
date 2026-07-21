@@ -1,0 +1,5 @@
+.section-head{
+  display:flex; align-items:flex-end; justify-content:space-between;
+  margin-bottom:28px; flex-wrap:wrap; gap:10px;
+}
+.section-head h2{font-size:32px; color:var(--mint);}
