@@ -1,0 +1,16 @@
+:root{
+  --bg:#050a06;
+  --bg-2:#081208;
+  --surface:#0b1f10;
+  --surface-2:#0e2a15;
+  --border:#173a1f;
+  --ink:#08210f;
+  --accent:#4dff81;
+  --accent-2:#39ff6a;
+  --mint:#c8ffd9;
+  --blush:#ffb3c6;
+  --text:#e6ffef;
+  --text-dim:#8fb89e;
+  --radius-card: 26px 26px 26px 60px;
+  --shadow: 0 20px 50px -20px rgba(0,0,0,0.6);
+}
